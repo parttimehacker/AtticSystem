@@ -61,3 +61,21 @@ python manage.py runserver
 
 
 ## Version roadmap (practical, incremental)
+
+
+---
+
+## Contributing
+
+Pull requests are welcome. Please:
+
+- Keep commits small and descriptive  
+- Prefer deterministic parsing of BLE payloads  
+- Add tests for payload decoding and risk classification  
+
+---
+
+## License
+
+Choose a license appropriate for your project (MIT is a common default).
+
