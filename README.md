@@ -20,5 +20,14 @@ Battery-friendly attic/roof monitoring system for wood-frame homes:
 ---
 
 ## Repository Layout
-
+AtticSystem/
+├── AtticSensor/ # Embedded sensor firmware (Feather / Nano / etc)
+├── AtticMonitor/ # M5Stack Core2 (ESP32) display firmware
+├── AtticServer/ # Django web app + ingestion worker
+│ ├── atticguard/ # Django project/app modules
+│ ├── ble_worker/ # BLE scan + parse + write DB
+│ ├── systemd/ # Service units for Pi deployments
+│ └── requirements.txt
+├── docs/ # Diagrams, screenshots, design notes
+└── .github/workflows/ # CI workflows
 
