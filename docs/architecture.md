@@ -1,5 +1,3 @@
-## 2) Architecture diagram (Mermaid) — `docs/architecture.md`
-
 # AtticSystem Architecture
 ```mermaid
 flowchart LR
