@@ -1,7 +1,7 @@
 ## 2) Architecture diagram (Mermaid) — `docs/architecture.md`
 
 # AtticSystem Architecture
-
+```mermaid
 flowchart LR
   subgraph SensorSide["AtticSensor (Battery)"]
     S1["Sensors\n- Temp/Humidity/Pressure\n- Motion\n- Battery Voltage"]
@@ -32,3 +32,4 @@ flowchart LR
 
   classDef edgeBox fill:#f7f7f7,stroke:#bbb,stroke-width:1px;
   class SensorSide,PiSide,MonitorSide edgeBox;
+```
